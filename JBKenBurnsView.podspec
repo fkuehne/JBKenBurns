@@ -7,9 +7,9 @@ Pod::Spec.new do |s|
   s.homepage = 'https://github.com/jberlana/iOSKenBurns'
   s.author   = { 'Javier Berlana' => 'jberlana@gmail.com' }
   s.social_media_url   = "http://twitter.com/jberlana"
-  s.source   = { :git => 'https://github.com/jberlana/iOSKenBurns.git', :tag => '1.0' }
-  s.platform = :ios
+  s.source   = { :git => 'https://github.com/fkuehne/iOSKenBurns.git', :tag => '1.0' }
   s.ios.deployment_target = "6.0"
+  s.tvos.deployment_target = "9.0"
   s.source_files = 'KenBurns/*.{h,m}'
   s.requires_arc = true
 end
